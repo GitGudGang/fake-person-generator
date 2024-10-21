@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 public interface CPRConstants {
+    //hej
     LocalDate CPR_REGISTER_START_DATE = LocalDate.of(1924, 1, 1);
     List<Integer> CENTURY_CODES_1900 = List.of(0, 1, 2, 3);
     List<Integer> CENTURY_CODES_2000 = List.of(4, 5, 6, 7);
