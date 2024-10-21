@@ -18,7 +18,7 @@ import java.util.UUID;
 @Embeddable
 @Entity
 public class Address {
-    //hejhej
+    //hej
     @Id
     @GeneratedValue
     private UUID id;
