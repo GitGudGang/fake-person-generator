@@ -11,11 +11,11 @@ import java.util.List;
 @RequestMapping("/api/persons")
 public class PersonController {
     private final PersonService personService;
-
+    //hej
     public PersonController(PersonService personService) {
         this.personService = personService;
     }
-
+    
     @GetMapping("/{dtoType}")
     public PartialPersonData getPartialPersonData(@PathVariable String dtoType) {
         return personService.generatePersonData(dtoType);
