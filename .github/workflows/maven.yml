@@ -10,7 +10,8 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "Yaimee" ]
+    branches-ignore:
+      - 'dependabot/**'  # Ignore Dependabot branches if they follow this naming pattern
   pull_request:
     branches: [ "Yaimee" ]
 
